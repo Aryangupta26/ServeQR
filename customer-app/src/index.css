@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f8fafc;
+  --color-card: #ffffff;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #0f172a;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
